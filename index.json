@@ -4,7 +4,7 @@
     },
     "recipes": {
         "nasumilu/ux-leafletjs": [
-            "1.0"
+            "1.1"
         ]
     },
     "branch": "main",
