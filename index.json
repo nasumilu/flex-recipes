@@ -1,0 +1,17 @@
+{
+    "aliases": {
+        "ux-leafletjs": "nasumilu/ux-leafletjs"
+    },
+    "recipes": {
+        "nasumilu/ux-leafletjs": [
+            "1.0"
+        ]
+    },
+    "branch": "main",
+    "is_contrib": true,
+    "_links": {
+        "repository": "github.com/nasumilu/flex-recipes",
+        "origin_template": "{package}:{version}@github.com/nasumilu/flex-recipes:main",
+        "recipe_template": "https://api.github.com/repos/nasumilu/flex-recipes/contents/{package_dotted}.{version}.json"
+    }
+}
