@@ -24,8 +24,6 @@
                     "   * Add the leaflet stylesheet <fg=green>assets/styles/app.css</>                             ",
                     "       <fg=blue>@import 'leaflet'</>                                                           ",
                     "                                                                                               ",
-                    "   * Don't forget to run <fg=blue>yarn install --force</>                                      ",
-                    "                                                                                               ",
                     "<fg=blue>Read</> the documentation at <commet>https://github.com/nasumilu/ux-leafletjs</>      ",
                     "                                                                                               "
                 ]
