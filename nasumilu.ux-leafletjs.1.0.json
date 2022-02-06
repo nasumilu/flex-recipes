@@ -13,22 +13,6 @@
                 }
             },
             "files": {
-                "assets/controllers.json": {
-                    "contents": [
-                        "{",
-                        "    \"controllers\": {",
-                        "        \"@nasumilu/ux-leafletjs\": {",
-                        "            \"leafletjs\": {",
-                        "                \"fetch\": \"eager\",",
-                        "                \"enabled\": true",
-                        "            }",
-                        "        }",
-                        "    }",
-                        "}",
-                        ""
-                    ],
-                    "executable": false
-                },
                 "config/packages/leafletjs.yaml": {
                     "contents": [
                         "#LeafletjsBundle configuration",
