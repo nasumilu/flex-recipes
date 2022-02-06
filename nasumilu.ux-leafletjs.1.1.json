@@ -12,21 +12,20 @@
                     "assets/": "assets/"
                 },
                 "post-install-output": [
-                    " ",
+                    "                                                                                               ",
                     "   * Run <fg=green>yarn add leaflet file:vendor/nasumilu/ux-leafletjs/assets --dev</>          ",
                     "                                                                                               ",
                     "   * Manually stimulus controller in <fg=green>assets/bootstrap.js</>                          ",
                     "                                                                                               ",
-                    "       <bg=yellow;fg=black>                                                                    ",
-                    "       import MapController from '@nasumilu/ux-leafletjs'                                      ",
+                    "       <fg=blue>import MapController from '@nasumilu/ux-leafletjs'</>                          ",
                     "                                                                                               ",
-                    "       app.register('nasumilu--ux-leafletjs--leafletjs', MapController); </>                   ",
-                    "       </>                                                                                     ",
+                    "       <fg=blue>app.register('nasumilu--ux-leafletjs--leafletjs', MapController);</>           ",
                     "                                                                                               ",
                     "   * Add the leaflet stylesheet <fg=green>assets/styles/app.css</>                             ",
-                    "       <bg=yellow;fg=black>@import 'leaflet'</>                                                ",
+                    "       <fg=blue>@import 'leaflet'</>                                                           ",
                     "                                                                                               ",
-                    "   * <fg=blue>Read</> the documentation at <commet>https://github.com/nasumilu/ux-leafletjs</> "
+                    "<fg=blue>Read</> the documentation at <commet>https://github.com/nasumilu/ux-leafletjs</>      ",
+                    "                                                                                               "
                 ]
             },
             "files": {
@@ -34,7 +33,7 @@
                     "contents": [
                         "#LeafletjsBundle configuration",
                         "#leafletjs:",
-                        "#    paths: ",
+                        "#    paths:",
                         "            # The default path for map definition if no path is",
                         "            # is configured.",
                         "#         - '%kernel.project_dir%/config/maps'",
