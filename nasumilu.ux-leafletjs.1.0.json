@@ -27,7 +27,8 @@
                         "    \"entrypoints\": []",
                         "}",
                         ""
-                    ]
+                    ],
+                    "executable": false
                 },
                 "config/packages/leafletjs.yaml": {
                     "contents": [
@@ -53,17 +54,17 @@
                 "config/maps/test_map.yaml": {
                     "contents": [
                         "test_map:",
-                        "   zoom: 4",
-                        "   center: [29.54654, -85.654665]",
-                        "   #maxBounds: [[71.386455, -64.565694],[17.681818, -179.147531]]",
-                        "   minZoom: 3",
-                        "   maxZoom: 18",
-                        "   layers:",
+                        "    zoom: 4",
+                        "    center: [29.54654, -85.654665]",
+                        "    #maxBounds: [[71.386455, -64.565694],[17.681818, -179.147531]]",
+                        "    minZoom: 3",
+                        "    maxZoom: 18",
+                        "    layers:",
                         "       # base map",
                         "       esri_world_topo:",
                         "           type: tile",
                         "           url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}'",
-                        "               options:",
+                        "           options:",
                         "               baseLayer: true",
                         "               title: 'ArcGIS World Topo'",
                         "               attribution: 'Tiles &copy; <a href=\"https://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer\">ArcGIS</a>'",
@@ -95,17 +96,17 @@
                         "                transparent: true",
                         "                format: image/png",
                         "                attribution: ''",
-                        "            layers:",
-                        "                - [1, 'default']",
-                        "                - [2]",
-                        "                - [3]",
-                        "                - [4]",
-                        "                - [5]",
-                        "                - [6]",
-                        "                - [7]",
-                        "                - [8]",
-                        "                - [9]",
-                        "                - [10]",
+                        "                layers:",
+                        "                   - [1, 'default']",
+                        "                   - [2]",
+                        "                   - [3]",
+                        "                   - [4]",
+                        "                   - [5]",
+                        "                   - [6]",
+                        "                   - [7]",
+                        "                   - [8]",
+                        "                   - [9]",
+                        "                   - [10]",
                         "    controls:",
                         "        - { type: layers, options: { position: topright, collapsed: false } }",
                         "        - { type: scale, options: { position: bottomleft, maxWidth: 300, metric: false } }",
@@ -114,7 +115,7 @@
                     "executable": false
                 }
             },
-            "ref": "676315d78fce0450761195accf4298467f0a14e7"
+            "ref": "85e756480c18daa4a7ff5ecf0ec17fdaa18556d8"
         }
     }
 }
