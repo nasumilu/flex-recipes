@@ -10,25 +10,25 @@
                 "copy-from-recipe": {
                     "config/": "%CONFIG_DIR%/",
                     "assets/": "assets/"
-                }
+                },
+                "post-install-output": [
+                    " ",
+                    "   * Run <fg=green>yarn add leaflet file:vendor/nasumilu/ux-leafletjs/assets --dev</>          ",
+                    "                                                                                               ",
+                    "   * Manually stimulus controller in <fg=green>assets/bootstrap.js</>                          ",
+                    "                                                                                               ",
+                    "       <bg=yellow;fg=black>                                                                    ",
+                    "       import MapController from '@nasumilu/ux-leafletjs'                                      ",
+                    "                                                                                               ",
+                    "       app.register('nasumilu--ux-leafletjs--leafletjs', MapController); </>                   ",
+                    "       </>                                                                                     ",
+                    "                                                                                               ",
+                    "   * Add the leaflet stylesheet <fg=green>assets/styles/app.css</>                             ",
+                    "       <bg=yellow;fg=black>@import 'leaflet'</>                                                ",
+                    "                                                                                               ",
+                    "   * <fg=blue>Read</> the documentation at <commet>https://github.com/nasumilu/ux-leafletjs</> "
+                ]
             },
-            "post-install-output": [
-                " ",
-                "   * Run <fg=green>yarn add leaflet file:vendor/nasumilu/ux-leafletjs/assets --dev</>          ",
-                "                                                                                               ",
-                "   * Manually stimulus controller in <fg=green>assets/bootstrap.js</>                          ",
-                "                                                                                               ",
-                "       <bg=yellow;fg=black>                                                                    ",
-                "       import MapController from '@nasumilu/ux-leafletjs'                                      ",
-                "                                                                                               ",
-                "       app.register('nasumilu--ux-leafletjs--leafletjs', MapController); </>                   ",
-                "       </>                                                                                     ",
-                "                                                                                               ",
-                "   * Add the leaflet stylesheet <fg=green>assets/styles/app.css</>                             ",
-                "       <bg=yellow;fg=black>@import 'leaflet'</>                                                ",
-                "                                                                                               ",
-                "   * <fg=blue>Read</> the documentation at <commet>https://github.com/nasumilu/ux-leafletjs</> "
-            ],
             "files": {
                 "config/packages/leafletjs.yaml": {
                     "contents": [
@@ -115,7 +115,7 @@
                     "executable": false
                 }
             },
-            "ref": "59608164b7085d05dbff963deec32e2035bbf1fa"
+            "ref": "10ebd2c5dc1257195b257c30fedef1c26ab0f530"
         }
     }
 }
