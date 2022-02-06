@@ -13,7 +13,7 @@
                 }
             },
             "files": {
-                "assets/controller.json": {
+                "assets/controllers.json": {
                     "contents": [
                         "{",
                         "    \"controllers\": {",
