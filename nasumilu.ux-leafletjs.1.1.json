@@ -12,20 +12,20 @@
                     "assets/": "assets/"
                 },
                 "post-install-output": [
-                    "                                                                                               ",
-                    "   * Run <fg=green>yarn add leaflet file:vendor/nasumilu/ux-leafletjs/assets --dev</>          ",
-                    "                                                                                               ",
-                    "   * Manually stimulus controller in <fg=green>assets/bootstrap.js</>                          ",
-                    "                                                                                               ",
-                    "       <fg=blue>import MapController from '@nasumilu/ux-leafletjs'</>                          ",
-                    "                                                                                               ",
-                    "       <fg=blue>app.register('nasumilu--ux-leafletjs--leafletjs', MapController);</>           ",
-                    "                                                                                               ",
-                    "   * Add the leaflet stylesheet <fg=green>assets/styles/app.css</>                             ",
-                    "       <fg=blue>@import 'leaflet'</>                                                           ",
-                    "                                                                                               ",
-                    "<fg=blue>Read</> the documentation at <commet>https://github.com/nasumilu/ux-leafletjs</>      ",
-                    "                                                                                               "
+                    "",
+                    "   * Run <fg=green>yarn add leaflet file:vendor/nasumilu/ux-leafletjs/assets --dev</>",
+                    "",
+                    "   * Manually stimulus controller in <fg=green>assets/bootstrap.js</>",
+                    "",
+                    "       <fg=yellow>import MapController from '@nasumilu/ux-leafletjs'</>",
+                    "",
+                    "       <fg=yellow>app.register('nasumilu--ux-leafletjs--leafletjs', MapController);</>",
+                    "",
+                    "   * Add the leaflet stylesheet <fg=green>assets/styles/app.css</>",
+                    "       <fg=yellow>@import 'leaflet'</>",
+                    "",
+                    "<fg=blue>Read</> the documentation at <commet>https://github.com/nasumilu/ux-leafletjs</comment>",
+                    ""
                 ]
             },
             "files": {
@@ -114,7 +114,7 @@
                     "executable": false
                 }
             },
-            "ref": "10ebd2c5dc1257195b257c30fedef1c26ab0f530"
+            "ref": "25ed32e78a996c1271ba40d5c59505b008183c0d"
         }
     }
 }
