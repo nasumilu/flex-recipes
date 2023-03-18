@@ -1,0 +1,46 @@
+{
+    "manifests": {
+        "nasumilu/geocoder-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Nasumilu\\GeocoderBundle\\NasumiluGeocoderBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "env": {
+                    "#1": "Geocode",
+                    "#2": "IMPORTANT: Use these to set the service providers API key when needed for more information",
+                    "#3": "           see config/packages/geocoder.yaml",
+                    "#4": "",
+                    "#5": "HERE_API_KEY=here.com_api_key"
+                }
+            },
+            "files": {
+                "config/routes/geocoder.yaml": {
+                    "contents": [
+                        "geocoder:",
+                        "    resource: '@NasumiluGeocoderBundle/config/routes.xml'",
+                        "    prefix: services",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "config/packages/geocoder.yaml": {
+                    "contents": [
+                        "nasumilu_geocoder:",
+                        "   # geocoder services - esri, us_census, here",
+                        "   geocoder: us_census",
+                        "   # reverse geocoder services - esri & here",
+                        "   reverse_geocoder: esri",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "9b57252d373a1654ad7649d3ae19a5bd866d742a"
+        }
+    }
+}

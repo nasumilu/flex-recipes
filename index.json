@@ -1,11 +1,15 @@
 {
     "aliases": {
-        "ux-leafletjs": "nasumilu/ux-leafletjs"
+        "ux-leafletjs": "nasumilu/ux-leafletjs",
+        "geocoder": "nasumilu/geocoder-bundle"
     },
     "recipes": {
         "nasumilu/ux-leafletjs": [
             "1.0",
             "1.1"
+        ],
+        "nasumilu/geocoder-bundle": [
+            "1.0.0"
         ]
     },
     "branch": "main",
