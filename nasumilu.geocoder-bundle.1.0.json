@@ -16,7 +16,23 @@
                     "#3": "           see config/packages/geocoder.yaml",
                     "#4": "",
                     "#5": "HERE_API_KEY=here.com_api_key"
-                }
+                },
+                "post-install-output": [
+                    "",
+                    "   * Geocoder Routes Installed:",
+                    "     <fg=yellow>config/routes/geocoder.yaml</>",
+                    "        <fg=yellow>https://[your-server]/services/geocode</>",
+                    "        <fg=yellow>https://[your-server]/services/reverse-geocode</>",
+                    "",
+                    "   * Geocode & ReverseGeocoder Services:",
+                    "     <fg=yellow>config/packages/geocoder.yaml</>",
+                    "        <fg=yellow>geocoder: us_census</>",
+                    "        <fg=yellow>reverse_geocoder: esri</>",
+                    "",
+                    "",
+                    "<fg=blue>Read</> the documentation at <commet>https://github.com/nasumilu/geocoder-bundle</comment>",
+                    ""
+                ]
             },
             "files": {
                 "config/routes/geocoder.yaml": {
