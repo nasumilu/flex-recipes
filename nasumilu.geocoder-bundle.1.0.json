@@ -29,6 +29,10 @@
                     "        <fg=yellow>geocoder: us_census</>",
                     "        <fg=yellow>reverse_geocoder: esri</>",
                     "",
+                    "   * Environment:",
+                    "     <fg=yellow>.env</>",
+                    "      Review and update to match the service providers requirements.",
+                    "",
                     "",
                     "<fg=blue>Read</> the documentation at https://github.com/nasumilu/geocoder-bundle",
                     ""
@@ -56,7 +60,7 @@
                     "executable": false
                 }
             },
-            "ref": "3bb6104adbc4ac2d69221bfb1c0e225fb9d78148"
+            "ref": "3e970f514e56f21511f88e39bf9e67c621b86ed7"
         }
     }
 }
