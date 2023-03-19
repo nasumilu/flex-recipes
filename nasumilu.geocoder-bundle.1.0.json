@@ -30,7 +30,7 @@
                     "        <fg=yellow>reverse_geocoder: esri</>",
                     "",
                     "",
-                    "<fg=blue>Read</> the documentation at <commet>https://github.com/nasumilu/geocoder-bundle</comment>",
+                    "<fg=blue>Read</> the documentation at https://github.com/nasumilu/geocoder-bundle",
                     ""
                 ]
             },
@@ -56,7 +56,7 @@
                     "executable": false
                 }
             },
-            "ref": "8d3c04fc13bd3683e955365ea54812f736467b5c"
+            "ref": "3bb6104adbc4ac2d69221bfb1c0e225fb9d78148"
         }
     }
 }
